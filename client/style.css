@@ -1,0 +1,34 @@
+body {
+  background-color: coral;
+  color: gray;
+}
+
+#app {
+  height: 80vh;
+  background: crimson;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.app-title {
+  width: 100%;
+}
+
+.sidebar {
+  height: 80%;
+  width: 20%;
+  background: red;
+}
+
+.note {
+  height: 80%;
+  width: 60%;
+  background: green;
+}
+
+.active-note {
+  background: fuschia;
+}
